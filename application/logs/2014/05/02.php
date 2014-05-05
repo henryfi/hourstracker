@@ -1,0 +1,266 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2014-05-02 03:24:18 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:24:18 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Model/Auth/User.php(167): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Api.php(55): Model_Auth_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Api->action_post_user()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Api))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:24:51 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:24:51 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Model/Auth/User.php(167): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Api.php(55): Model_Auth_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Api->action_post_user()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Api))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:27:44 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:27:44 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Model/Auth/User.php(167): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Home.php(19): Model_Auth_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Home->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Home))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:27:51 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:27:51 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Model/Auth/User.php(167): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Home.php(19): Model_Auth_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Home->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Home))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:28:09 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:28:09 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Model/Auth/User.php(167): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Home.php(19): Model_Auth_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Home->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Home))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:28:09 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:28:09 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Model/Auth/User.php(167): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Home.php(19): Model_Auth_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Home->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Home))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:28:35 --- EMERGENCY: ErrorException [ 1 ]: Call to a member function add() on a non-object ~ APPPATH/classes/Controller/Home.php [ 28 ] in file:line
+2014-05-02 03:28:35 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-05-02 03:28:47 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:28:47 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Model/Auth/User.php(167): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Home.php(21): Model_Auth_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Home->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Home))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:31:37 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:31:37 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/application/classes/Model/User.php(73): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Api.php(56): Model_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Api->action_post_user()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Api))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:32:07 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:32:07 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/application/classes/Model/User.php(72): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Api.php(56): Model_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Api->action_post_user()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Api))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:32:37 --- EMERGENCY: Database_Exception [ 1364 ]: Field 'email' doesn't have a default value [ INSERT INTO `users` (`username`, `password`) VALUES ('henkka', 'ff50ec83905366948fa39590ac736098cfe830074a8a3782349fb9e3a1379ca5') ] ~ MODPATH/database/classes/Kohana/Database/MySQL.php [ 194 ] in /Users/HenrySimonen/Sites/hours/modules/database/classes/Kohana/Database/Query.php:251
+2014-05-02 03:32:37 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/database/classes/Kohana/Database/Query.php(251): Kohana_Database_MySQL->query(2, 'INSERT INTO `us...', false, Array)
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1324): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Model/User.php(73): Kohana_ORM->create(Object(Validation))
+#3 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Api.php(56): Model_User->create_user(Array, Array)
+#4 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Api->action_post_user()
+#5 [internal function]: Kohana_Controller->execute()
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Api))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#10 {main} in /Users/HenrySimonen/Sites/hours/modules/database/classes/Kohana/Database/Query.php:251
+2014-05-02 03:34:10 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:34:10 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Model/Auth/User.php(167): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Api.php(57): Model_Auth_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Api->action_post_user()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Api))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:35:31 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:35:31 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Model/Auth/User.php(167): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Api.php(60): Model_Auth_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Api->action_post_user()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Api))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:36:08 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:36:08 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Model/Auth/User.php(167): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Api.php(60): Model_Auth_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Api->action_post_user()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Api))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:36:45 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:36:45 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(Object(Validation))
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Model/Auth/User.php(167): Kohana_ORM->create(Object(Validation))
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Api.php(60): Model_Auth_User->create_user(Array, Array)
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Api->action_post_user()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Api))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 03:46:53 --- EMERGENCY: ErrorException [ 4 ]: parse error ~ APPPATH/classes/Controller/Api.php [ 137 ] in file:line
+2014-05-02 03:46:53 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-05-02 04:35:18 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 04:35:18 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(NULL)
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1421): Kohana_ORM->create(NULL)
+#2 /Users/HenrySimonen/Sites/hours/application/classes/ORM.php(7): Kohana_ORM->save(NULL)
+#3 /Users/HenrySimonen/Sites/hours/application/classes/ORM.php(13): ORM->save()
+#4 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Api.php(213): ORM->hide()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Api->action_delete_project()
+#6 [internal function]: Kohana_Controller->execute()
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Api))
+#8 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#10 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#11 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 04:35:19 --- EMERGENCY: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH/orm/classes/Kohana/ORM.php [ 1275 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 04:35:19 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1302): Kohana_ORM->check(NULL)
+#1 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(1421): Kohana_ORM->create(NULL)
+#2 /Users/HenrySimonen/Sites/hours/application/classes/ORM.php(7): Kohana_ORM->save(NULL)
+#3 /Users/HenrySimonen/Sites/hours/application/classes/ORM.php(13): ORM->save()
+#4 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Api.php(213): ORM->hide()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Api->action_delete_project()
+#6 [internal function]: Kohana_Controller->execute()
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Api))
+#8 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#10 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#11 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:1302
+2014-05-02 04:40:44 --- EMERGENCY: Kohana_Exception [ 0 ]: The role property does not exist in the Model_User class ~ MODPATH/orm/classes/Kohana/ORM.php [ 687 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:40:44 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(603): Kohana_ORM->get('role')
+#1 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(30): Kohana_ORM->__get('role')
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(12): Controller_Page->_require_role('admin')
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Page->action_reports()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:40:45 --- EMERGENCY: Kohana_Exception [ 0 ]: The role property does not exist in the Model_User class ~ MODPATH/orm/classes/Kohana/ORM.php [ 687 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:40:45 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(603): Kohana_ORM->get('role')
+#1 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(30): Kohana_ORM->__get('role')
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(18): Controller_Page->_require_role('admin')
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Page->action_projects()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:40:46 --- EMERGENCY: Kohana_Exception [ 0 ]: The role property does not exist in the Model_User class ~ MODPATH/orm/classes/Kohana/ORM.php [ 687 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:40:46 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(603): Kohana_ORM->get('role')
+#1 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(30): Kohana_ORM->__get('role')
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(12): Controller_Page->_require_role('admin')
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Page->action_reports()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:40:48 --- EMERGENCY: Kohana_Exception [ 0 ]: The role property does not exist in the Model_User class ~ MODPATH/orm/classes/Kohana/ORM.php [ 687 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:40:48 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(603): Kohana_ORM->get('role')
+#1 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(30): Kohana_ORM->__get('role')
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(12): Controller_Page->_require_role('admin')
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Page->action_reports()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:40:49 --- EMERGENCY: Kohana_Exception [ 0 ]: The role property does not exist in the Model_User class ~ MODPATH/orm/classes/Kohana/ORM.php [ 687 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:40:49 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(603): Kohana_ORM->get('role')
+#1 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(30): Kohana_ORM->__get('role')
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(18): Controller_Page->_require_role('admin')
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Page->action_projects()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:40:50 --- EMERGENCY: Kohana_Exception [ 0 ]: The role property does not exist in the Model_User class ~ MODPATH/orm/classes/Kohana/ORM.php [ 687 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:40:50 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(603): Kohana_ORM->get('role')
+#1 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(30): Kohana_ORM->__get('role')
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(12): Controller_Page->_require_role('admin')
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Page->action_reports()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:41:03 --- EMERGENCY: Kohana_Exception [ 0 ]: The role property does not exist in the Model_User class ~ MODPATH/orm/classes/Kohana/ORM.php [ 687 ] in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603
+2014-05-02 04:41:03 --- DEBUG: #0 /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php(603): Kohana_ORM->get('role')
+#1 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(30): Kohana_ORM->__get('role')
+#2 /Users/HenrySimonen/Sites/hours/application/classes/Controller/Page.php(12): Controller_Page->_require_role('admin')
+#3 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Controller.php(84): Controller_Page->action_reports()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Page))
+#6 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /Users/HenrySimonen/Sites/hours/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /Users/HenrySimonen/Sites/hours/index.php(118): Kohana_Request->execute()
+#9 {main} in /Users/HenrySimonen/Sites/hours/modules/orm/classes/Kohana/ORM.php:603

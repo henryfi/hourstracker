@@ -1,0 +1,21 @@
+{
+  "name": "hours",
+  "version": "0.0.0",
+  "authors": [
+    "Henry Simonen <henry.simonen@eazybreak.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "angular-bootstrap": "~0.10.0"
+  }
+}
