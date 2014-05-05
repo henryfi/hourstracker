@@ -108,3 +108,15 @@ body {
 .navbar-link {
   color: #fff !important;
 }
+
+#task-input select {
+  max-width: 180px;
+}
+
+#task-input input#task {
+  width: 300px;
+}
+
+#task-input input#hours {
+  width: 100px;
+}

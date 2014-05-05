@@ -1,6 +1,6 @@
 <h1 class="page-header">Add Task</h1>
 
-<div ng-controller="TaskInputCtrl">
+<div id="task-input" ng-controller="TaskInputCtrl">
 	<form class="form-inline" role="form" ng-submit="addTask()">
 	  <div class="form-group">		
 	    <label class="sr-only" for="date">Date</label>
@@ -15,11 +15,11 @@
 
 	  <div class="form-group">
 	    <label class="sr-only" for="task">Task</label>
-	    <input style="width: 400px;" type="text" class="form-control" id="task" placeholder="Task" ng-model="task" ng-required="true">
+	    <input type="text" class="form-control" id="task" placeholder="Task" ng-model="task" ng-required="true">
 	  </div>
 	  <div class="form-group">
 	    <label class="sr-only" for="hours">Hours</label>
-	    <input type="number" step="any" style="width: 100px;" class="form-control" id="hours" placeholder="Hours" ng-model="hours" ng-required="true">
+	    <input type="number" step="any" class="form-control" id="hours" placeholder="Hours" ng-model="hours" ng-required="true">
 	  </div>
 	  <!--
 	  <div class="form-group">
