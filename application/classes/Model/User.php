@@ -72,7 +72,7 @@ class Model_User extends Model_Auth_User {
     {
         $this->status = 'activated';
         $this->activation_hash = NULL;
-        $this->add('roles', ORM::factory('role', array('name' => 'login')));
+        $this->add('roles', ORM::factory('Role', array('name' => 'login')));
         $this->save();
     }
 }
