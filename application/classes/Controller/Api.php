@@ -139,7 +139,7 @@ class Controller_Api extends Controller {
 	public function action_get_tasks($filters = array())
 	{
 		$filters = Arr::merge($filters, $_GET);
-		$f = $this->_filters($filters, array('startDate', 'endDate', 'project', 'users'));
+		$f = $this->_filters($filters, array('startDate', 'endDate', 'projects', 'users'));
 
 		$query = '
 			SELECT 
@@ -159,7 +159,7 @@ class Controller_Api extends Controller {
 
 		$query .= ($f['startDate']) ? ' AND tasks.date >= '.$f['startDate'] : '';
 		$query .= ($f['endDate']) ? ' AND tasks.date <= '.$f['endDate'] : '';
-		$query .= ($f['project']) ? ' AND tasks.project_id = '.$f['project'] : '';
+		$query .= ($f['projects']) ? ' AND tasks.project_id IN('.$f['projects'].')' : '';
 		$query .= ($f['users']) ? ' AND tasks.user_id IN('.$f['users'].')' : '';
 
 		$res = DB::query(Database::SELECT, $query)->execute();

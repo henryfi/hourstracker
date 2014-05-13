@@ -131,7 +131,6 @@ app.controller('ReportCtrl', function($scope, $http, $filter) {
 	$http.get('api/projects').
 		success(function(data) {
 			$scope.projects = data;
-			$scope.project = $scope.projects[0].id;
 		});
 
 	// Load the users
@@ -142,13 +141,14 @@ app.controller('ReportCtrl', function($scope, $http, $filter) {
 		});
 
 	$scope.selectedUsers = [];
+	$scope.selectedProjects = [];
 	$scope.startDate = $filter('date')(Date.now(), 'yyyy-MM-dd');
 	$scope.endDate = $filter('date')(Date.now(), 'yyyy-MM-dd');
 
 	$scope.showReport = function(event) {
 
 		var report = {
-			project : $scope.project,
+			projects: $scope.selectedProjects,
 			startDate : $scope.startDate,
 			endDate : $scope.endDate,
 			users : $scope.selectedUsers
